@@ -1,0 +1,13 @@
+{
+  "gameId": "game_id_2",
+  "syd": "game-1-secret",
+  "linkedPlayers": [
+    "0",
+    "1",
+    "2",
+    "3"
+  ],
+  "playersInTeam": 2,
+  "teamsInMatch": 3,
+  "delayBeforeGames": 1
+}

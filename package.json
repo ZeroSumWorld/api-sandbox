@@ -1,0 +1,26 @@
+{
+  "name": "api-sandbox",
+  "version": "1.1.0",
+  "description": "ZeroSum API Sandbox",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install && npx tsc",
+    "start": "node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "Grigorii Zhitnii",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "jwt-decode": "^3.1.2",
+    "keccak256": "^1.0.6",
+    "node-color-log": "^10.0.2",
+    "socket.io": "^4.7.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.4.2"
+  }
+}
